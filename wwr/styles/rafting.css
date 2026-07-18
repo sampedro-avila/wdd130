@@ -11,9 +11,7 @@
     --accent-color: aqua;
     --heading-color: navy;
     --main-align: center;
-    --body-size: 16 px;
-    --heading-size: 24 px;
-    --body-font: Roboto, Arial, sans-serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -55,6 +53,10 @@ article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article {
+    position: absolute;
 }
 
 h1 {
