@@ -5,9 +5,9 @@
 }
 
 :root {
-    --light-color: #fff;
+    --light-color: white;
     --medium-color: black;
-    --dark-color: #000;
+    --dark-color: black;
     --accent-color: blue;
     --heading-color: navy;
     --main-align: center;
@@ -36,11 +36,17 @@ header {
     max-width: 1000px;
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 120px 2fr 0.1fr;
+    align-items: center;
+}
+
 .socialmedia {
     display: flex;
     list-style: none;
     flex-wrap: nowrap;
-    max-width: 5px;
+    max-width: 50px;
     margin: 0 auto;
     justify-content: space-evenly;
     align-items: center;
