@@ -6,9 +6,9 @@
 
 :root {
     --light-color: #fff;
-    --medium-color: #808588;
+    --medium-color: black;
     --dark-color: #000;
-    --accent-color: aqua;
+    --accent-color: blue;
     --heading-color: navy;
     --main-align: center;
     --body-font: Arial, Helvetica, sans-serif;
