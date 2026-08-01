@@ -96,10 +96,25 @@ footer {
     align-items: center;
 }
 
+.location {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+}
+
 .adventure {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 120px 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.employees {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr 1fr;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -126,6 +141,10 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+.information p {
+    text-align: center;
 }
 
 .hero {
@@ -165,4 +184,66 @@ h2 {
     padding: 2px;
     box-shadow: 0 0 30px var(--medium-color);
     margin: 0 0 1rem 1rem;
+}
+
+form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--light-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--heading-color);
+    font-size: 1.3rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--heading-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--accent-color);
 }
