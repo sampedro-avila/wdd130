@@ -132,7 +132,8 @@ footer {
 h1,
 h2 {
     font-family: var(--body-font);
-    color: var(--heading-color)
+    color: var(--heading-color);
+    text-align: center;
 }
 
 nav,
@@ -171,11 +172,6 @@ article {
     opacity: 0.7;
     background-color: var(--medium-color);
     color: var(--light-color);
-}
-
-h1,
-h2 {
-    text-align: center;
 }
 
 .hero article img {
