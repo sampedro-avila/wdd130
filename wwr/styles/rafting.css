@@ -162,7 +162,7 @@ article {
     top: 310px;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -173,6 +173,7 @@ h1 {
     color: var(--light-color);
 }
 
+h1,
 h2 {
     text-align: center;
 }
