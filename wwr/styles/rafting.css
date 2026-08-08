@@ -263,5 +263,6 @@ td {
 thead tr,
 tfoot tr {
     background-color: var(--dark-color);
-    color: var(--light-color) font-weight: 500;
+    color: var(--light-color);
+    font-weight: 500;
 }
