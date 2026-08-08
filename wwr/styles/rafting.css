@@ -244,3 +244,24 @@ button {
 button:hover {
     background-color: var(--accent-color);
 }
+
+table {
+    border: 1px solid var(--medium-color);
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th,
+td {
+    border: 0.5px solid var(--medium-color);
+    padding: 10px 15px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: var(--dark-color);
+    color: var(--light-color) font-weight: 500;
+}
